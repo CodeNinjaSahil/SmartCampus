@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02862439265D1677FDC1E435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF6E7B584E8F84F6031775 /* AppDelegate.swift */; };
+		08E7BF4DAF373D9414A2FAEB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C092F79B4CE3CB392A363D67 /* DashboardViewController.swift */; };
+		0A19418878F9ED9A2821D901 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27BA048ECB4E5972BD1912 /* ScanViewController.swift */; };
+		10EF813D4E0F3A1DE09C216C /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7598713E738220F0CB0F240B /* Visitor.swift */; };
+		2FDD59C3A2B66B78B35B1375 /* PassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C99F54723831556F1CFFF /* PassViewController.swift */; };
+		3486CA6C8B5B279B7D012E20 /* VisitorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9EC6B525C8BB9CCA92B824 /* VisitorTableViewCell.swift */; };
+		5234447F7B8A79C1A3D86442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DF7058194882392B908B4B /* SceneDelegate.swift */; };
+		567C1B72E7FD8CB27817572B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DAE3DD110AE9882443509 /* MainTabBarController.swift */; };
+		5D4D02A4852AD22497886C0A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84073407A5B4DAF4415427D /* ProfileViewController.swift */; };
+		9A5F10EC99683E4A05FF4B1E /* RegisterVisitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22DB781348C0A8C178675E /* RegisterVisitorViewController.swift */; };
+		A18303BA90D78785B84C0651 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB65AC7906DEF3CC371BE1A /* LoginViewController.swift */; };
+		BA9D4035939650BD3C051DC5 /* VisitorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B777DC385723FFB565DB973D /* VisitorsViewController.swift */; };
+		D1533F58AE625043963D4748 /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B964FC6BD6F612F8F56348A5 /* UIHelpers.swift */; };
+		D439268C50D7E5B494F9AAEE /* QRCodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9FDF20B28C123A2EBE42D /* QRCodeService.swift */; };
+		F2DAFF15E25954F85CB8C9A7 /* VisitorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497412BFF15FFFD2FB31D322 /* VisitorStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03DF7058194882392B908B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0F27BA048ECB4E5972BD1912 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		16101F67349837C76811A245 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		28FF6E7B584E8F84F6031775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FCC30262623719DF946AF46 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		45F9FDF20B28C123A2EBE42D /* QRCodeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeService.swift; sourceTree = "<group>"; };
+		497412BFF15FFFD2FB31D322 /* VisitorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorStore.swift; sourceTree = "<group>"; };
+		7598713E738220F0CB0F240B /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		8748DF431EC4658EDD792F45 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		982DAE3DD110AE9882443509 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A84073407A5B4DAF4415427D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACB65AC7906DEF3CC371BE1A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B680E6FD8F3716B03EF4F080 /* SmartCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B777DC385723FFB565DB973D /* VisitorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorsViewController.swift; sourceTree = "<group>"; };
+		B964FC6BD6F612F8F56348A5 /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
+		C092F79B4CE3CB392A363D67 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CFA95DA0ED8AEB27EE58232D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DA22DB781348C0A8C178675E /* RegisterVisitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVisitorViewController.swift; sourceTree = "<group>"; };
+		E27C99F54723831556F1CFFF /* PassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassViewController.swift; sourceTree = "<group>"; };
+		EB9EC6B525C8BB9CCA92B824 /* VisitorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A6995FD9E57F91DFFB744D9 = {
+			isa = PBXGroup;
+			children = (
+				971D1663278E643EDA884942 /* SmartCampus */,
+				B5D187B6AAAC52C17912BAB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1041510B79BA497C186FC5A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				16101F67349837C76811A245 /* .gitkeep */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1B040E074AE129498EB06FF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C092F79B4CE3CB392A363D67 /* DashboardViewController.swift */,
+				ACB65AC7906DEF3CC371BE1A /* LoginViewController.swift */,
+				982DAE3DD110AE9882443509 /* MainTabBarController.swift */,
+				E27C99F54723831556F1CFFF /* PassViewController.swift */,
+				A84073407A5B4DAF4415427D /* ProfileViewController.swift */,
+				DA22DB781348C0A8C178675E /* RegisterVisitorViewController.swift */,
+				0F27BA048ECB4E5972BD1912 /* ScanViewController.swift */,
+				B777DC385723FFB565DB973D /* VisitorsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		643520F1938B70939475B377 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FCC30262623719DF946AF46 /* .gitkeep */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		949E0B9EECE14C29450A0C8B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B964FC6BD6F612F8F56348A5 /* UIHelpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		971D1663278E643EDA884942 /* SmartCampus */ = {
+			isa = PBXGroup;
+			children = (
+				28FF6E7B584E8F84F6031775 /* AppDelegate.swift */,
+				CFA95DA0ED8AEB27EE58232D /* Info.plist */,
+				03DF7058194882392B908B4B /* SceneDelegate.swift */,
+				1041510B79BA497C186FC5A0 /* Components */,
+				FCF251EDAD12E0098A9B75CD /* Models */,
+				643520F1938B70939475B377 /* Resources */,
+				FCC130D1ADF00EDC74F43DC8 /* Services */,
+				949E0B9EECE14C29450A0C8B /* Utilities */,
+				1B040E074AE129498EB06FF9 /* ViewControllers */,
+				B6B2183D165181D089406210 /* ViewModels */,
+				A5D1A5577471CBE21F6E05EB /* Views */,
+			);
+			path = SmartCampus;
+			sourceTree = "<group>";
+		};
+		A5D1A5577471CBE21F6E05EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB9EC6B525C8BB9CCA92B824 /* VisitorTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5D187B6AAAC52C17912BAB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B680E6FD8F3716B03EF4F080 /* SmartCampus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B2183D165181D089406210 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8748DF431EC4658EDD792F45 /* .gitkeep */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FCC130D1ADF00EDC74F43DC8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				45F9FDF20B28C123A2EBE42D /* QRCodeService.swift */,
+				497412BFF15FFFD2FB31D322 /* VisitorStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FCF251EDAD12E0098A9B75CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7598713E738220F0CB0F240B /* Visitor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ED69A2B6F9934EF23C127C8 /* SmartCampus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F06540C5D9213B9B1BE4ED4 /* Build configuration list for PBXNativeTarget "SmartCampus" */;
+			buildPhases = (
+				6E0DEBD5A11DD369697DF80C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCampus;
+			packageProductDependencies = (
+			);
+			productName = SmartCampus;
+			productReference = B680E6FD8F3716B03EF4F080 /* SmartCampus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E53629E58C5FFB2ED9E94B8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = BA80A245C0FA8D6CC3330F90 /* Build configuration list for PBXProject "SmartCampus" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0A6995FD9E57F91DFFB744D9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B5D187B6AAAC52C17912BAB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ED69A2B6F9934EF23C127C8 /* SmartCampus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0DEBD5A11DD369697DF80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02862439265D1677FDC1E435 /* AppDelegate.swift in Sources */,
+				08E7BF4DAF373D9414A2FAEB /* DashboardViewController.swift in Sources */,
+				A18303BA90D78785B84C0651 /* LoginViewController.swift in Sources */,
+				567C1B72E7FD8CB27817572B /* MainTabBarController.swift in Sources */,
+				2FDD59C3A2B66B78B35B1375 /* PassViewController.swift in Sources */,
+				5D4D02A4852AD22497886C0A /* ProfileViewController.swift in Sources */,
+				D439268C50D7E5B494F9AAEE /* QRCodeService.swift in Sources */,
+				9A5F10EC99683E4A05FF4B1E /* RegisterVisitorViewController.swift in Sources */,
+				0A19418878F9ED9A2821D901 /* ScanViewController.swift in Sources */,
+				5234447F7B8A79C1A3D86442 /* SceneDelegate.swift in Sources */,
+				D1533F58AE625043963D4748 /* UIHelpers.swift in Sources */,
+				10EF813D4E0F3A1DE09C216C /* Visitor.swift in Sources */,
+				F2DAFF15E25954F85CB8C9A7 /* VisitorStore.swift in Sources */,
+				3486CA6C8B5B279B7D012E20 /* VisitorTableViewCell.swift in Sources */,
+				BA9D4035939650BD3C051DC5 /* VisitorsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EDFC3D11A9062AF937C8159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B0D2240854D0075FF0153D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartCampus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartCampus;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B9D084340DCB695A92FF86A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA7B7DF5FBFFE18B6D1EAFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartCampus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SmartCampus;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F06540C5D9213B9B1BE4ED4 /* Build configuration list for PBXNativeTarget "SmartCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D2240854D0075FF0153D22 /* Debug */,
+				EA7B7DF5FBFFE18B6D1EAFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA80A245C0FA8D6CC3330F90 /* Build configuration list for PBXProject "SmartCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D084340DCB695A92FF86A0 /* Debug */,
+				2EDFC3D11A9062AF937C8159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E53629E58C5FFB2ED9E94B8B /* Project object */;
+}

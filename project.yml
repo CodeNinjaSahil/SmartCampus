@@ -1,0 +1,30 @@
+name: SmartCampus
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  SmartCampus:
+    type: application
+    platform: iOS
+    sources:
+      - SmartCampus
+    info:
+      path: SmartCampus/Info.plist
+      properties:
+        CFBundleDisplayName: Smart Campus
+        UILaunchScreen: {}
+        NSCameraUsageDescription: Camera access is needed to scan visitor QR passes.
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.SmartCampus
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
